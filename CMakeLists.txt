@@ -16,9 +16,9 @@ fips_begin_lib(enkits)
     include_directories(enkiTS/src)
     fips_dir(enkiTS/src)
     fips_files(
-        Atomics.h
+        # Atomics.h
         LockLessMultiReadPipe.h
-        Threads.h
+        # Threads.h
         TaskScheduler.h
         TaskScheduler.cpp
     )
